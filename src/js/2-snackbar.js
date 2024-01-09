@@ -58,7 +58,6 @@ const selectedStateInput = Array.from(inputState).find(input => input.checked);
                 position: 'topRight',
             })
         } 
-
     });
 });
 
