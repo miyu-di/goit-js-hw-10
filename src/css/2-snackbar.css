@@ -1,0 +1,82 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2E2F42;
+    font-size: 16px;
+}
+
+.form {
+    width: 360px;
+}
+
+.form label {
+    display: flex;
+    flex-direction: row-column;
+    gap: 8px;
+}
+
+.form div label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.form label input {
+    border-radius: 4px;
+    border: 1px solid #808080;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.form label input:hover {
+    border: 1px solid #000;
+}
+
+.form fieldset {
+    border-radius: 4px;
+    border: 1px solid #808080;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 22px 48px 8px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.form fieldset label {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 32px;
+    padding: 0
+}
+
+.form fieldset label input {
+    width: 20px;
+    height: 20px;
+    margin: 6px
+}
+
+button {
+    border-radius: 8px;
+    background: #4E75FF;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 16px;
+    width: 360px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    background-color: #6C8CFF;
+}
+
+.form>fieldset>legend {
+    position: absolute;
+    background-color: #fff;
+    left: 28px;
+    top: -14px;
+}

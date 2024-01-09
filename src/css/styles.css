@@ -23,3 +23,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+a:hover {
+  color: #616161;
+}
