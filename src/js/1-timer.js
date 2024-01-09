@@ -24,7 +24,10 @@ const timepicker = flatpickr("#datetime-picker", {
       if (userSelectedDate < currentDate) {
         iziToast.error({
         title: 'Error',
+        titleColor: '#fff',
+        color: '#EF4040',
         message: 'Please choose a date in the future',
+        messageColor: '#fff',
         position: 'topRight'
       });
       } else {
@@ -50,7 +53,10 @@ function startCountdown(endTime) {
         clearInterval(countdownInterval);
         iziToast.success({
           title: 'Success',
+          titleColor: '#fff',
+          color: '#59A10D',
           message: 'Countdown Finished',
+          messageColor: '#fff',
           position: 'topRight'
         });
       }
